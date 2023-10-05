@@ -138,6 +138,14 @@
       "headingKeywords": {}
     },
     {
+      "src": "team/adhigop13.md",
+      "title": "Adhitya's Project Portfolio Page",
+      "headings": {
+        "project-linktree": "Project: LinkTree"
+      },
+      "headingKeywords": {}
+    },
+    {
       "src": "team/johndoe.md",
       "title": "John Doe's Project Portfolio Page",
       "headings": {
