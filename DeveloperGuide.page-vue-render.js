@@ -233,16 +233,16 @@ with(this){return _c('p',[_c('em',[_v("{More to be added}")])])}
 with(this){return _c('h3',{attrs:{"id":"use-cases"}},[_v("Use cases"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#use-cases","onclick":"event.stopPropagation()"}})])}
 },function anonymous(
 ) {
-with(this){return _c('p',[_v("(For all use cases below, the "),_c('strong',[_v("System")]),_v(" is the "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("AddressBook")]),_v(" and the "),_c('strong',[_v("Actor")]),_v(" is the "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("user")]),_v(", unless specified otherwise)")])}
+with(this){return _c('p',[_v("(For all use cases below, the "),_c('strong',[_v("System")]),_v(" is the "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("LinkTree")]),_v(" and the "),_c('strong',[_v("Actor")]),_v(" is the "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("user")]),_v(", unless specified otherwise)")])}
 },function anonymous(
 ) {
-with(this){return _c('p',[_c('strong',[_v("Use case: View all members of my team")])])}
+with(this){return _c('p',[_c('strong',[_v("Use case: View all members of my team")]),_v(" "),_c('strong',[_v("Actor: Developer")])])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('strong',[_v("MSS")])])}
 },function anonymous(
 ) {
-with(this){return _c('ol',[_c('li',[_c('p',[_v("Developer requests to list team members.")])]),_v(" "),_c('li',[_c('p',[_v("TeamDirectory displays a list of team members.")])]),_v(" "),_c('li',[_c('p',[_v("Developer views the members' contact information.")]),_v(" "),_c('p',[_v("Use case ends.")])])])}
+with(this){return _c('ol',[_c('li',[_c('p',[_v("Developer requests to list team members.")])]),_v(" "),_c('li',[_c('p',[_v("LinkTree displays a list of team members.")])]),_v(" "),_c('li',[_c('p',[_v("Developer views the members' contact information.")]),_v(" "),_c('p',[_v("Use case ends.")])])])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('strong',[_v("Extensions")])])}
@@ -251,7 +251,7 @@ with(this){return _c('p',[_c('strong',[_v("Extensions")])])}
 with(this){return _c('ul',[_c('li',[_v("2a. The team member list is empty.\n"),_c('ul',[_c('li',[_v("2a1. TeamDirectory indicates there are no members currently.\nUse case ends.")])])])])}
 },function anonymous(
 ) {
-with(this){return _c('p',[_c('strong',[_v("Use case: Search contacts using tags")])])}
+with(this){return _c('p',[_c('strong',[_v("Use case: Search contacts using tags")]),_v(" "),_c('strong',[_v("Actor: Developer")])])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('strong',[_v("MSS")])])}
@@ -266,7 +266,7 @@ with(this){return _c('p',[_c('strong',[_v("Extensions")])])}
 with(this){return _c('ul',[_c('li',[_v("2a. No contacts have the specified tag.\n"),_c('ul',[_c('li',[_v("2a1. TeamDirectory shows a message that no contacts were found with that tag.\nUse case ends.")])])])])}
 },function anonymous(
 ) {
-with(this){return _c('p',[_c('strong',[_v("Use case: Access names of developers")])])}
+with(this){return _c('p',[_c('strong',[_v("Use case: Access names of developers")]),_v(" "),_c('strong',[_v("Actor: Project Manager")])])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('strong',[_v("MSS")])])}
@@ -275,7 +275,7 @@ with(this){return _c('p',[_c('strong',[_v("MSS")])])}
 with(this){return _c('ol',[_c('li',[_c('p',[_v("Project manager requests a list of all developers.")])]),_v(" "),_c('li',[_c('p',[_v("TeamDirectory displays the list of developers.")]),_v(" "),_c('p',[_v("Use case ends.")])])])}
 },function anonymous(
 ) {
-with(this){return _c('p',[_c('strong',[_v("Use case: Edit or update my information")])])}
+with(this){return _c('p',[_c('strong',[_v("Use case: Edit or update my information")]),_v(" "),_c('strong',[_v("Actor: Developer")])])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('strong',[_v("MSS")])])}
@@ -284,7 +284,7 @@ with(this){return _c('p',[_c('strong',[_v("MSS")])])}
 with(this){return _c('ol',[_c('li',[_c('p',[_v("Developer wants to update their contact info.")])]),_v(" "),_c('li',[_c('p',[_v("Developer selects their profile and makes desired changes.")])]),_v(" "),_c('li',[_c('p',[_v("TeamDirectory confirms the updates.")]),_v(" "),_c('p',[_v("Use case ends.")])])])}
 },function anonymous(
 ) {
-with(this){return _c('p',[_c('strong',[_v("Use case: Assign a node for a team leader")])])}
+with(this){return _c('p',[_c('strong',[_v("Use case: Assign a node for a team leader")]),_v(" "),_c('strong',[_v("Actor: Project Manager")])])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('strong',[_v("MSS")])])}
@@ -293,7 +293,7 @@ with(this){return _c('p',[_c('strong',[_v("MSS")])])}
 with(this){return _c('ol',[_c('li',[_c('p',[_v("Project manager wants to assign a node to a team leader.")])]),_v(" "),_c('li',[_c('p',[_v("Project manager selects the desired team leader and assigns a node.")])]),_v(" "),_c('li',[_c('p',[_v("TeamDirectory confirms the assignment.")]),_v(" "),_c('p',[_v("Use case ends.")])])])}
 },function anonymous(
 ) {
-with(this){return _c('p',[_c('strong',[_v("Use case: Create a public profile for a team")])])}
+with(this){return _c('p',[_c('strong',[_v("Use case: Create a public profile for a team")]),_v(" "),_c('strong',[_v("Actor: Team lead")])])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('strong',[_v("MSS")])])}
@@ -350,7 +350,7 @@ with(this){return _c('p',[_c('em',[_v("{More to be added}")])])}
 with(this){return _c('h3',{attrs:{"id":"glossary"}},[_v("Glossary"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#glossary","onclick":"event.stopPropagation()"}})])}
 },function anonymous(
 ) {
-with(this){return _c('ul',[_c('li',[_c('strong',[_v("Mainstream OS")]),_v(": Windows, Linux, Unix, OS-X")]),_v(" "),_c('li',[_c('strong',[_v("Private contact detail")]),_v(": A contact detail that is not meant to be shared with others")])])}
+with(this){return _c('ul',[_c('li',[_c('strong',[_v("Mainstream OS")]),_v(": Windows, Linux, Unix, OS-X")]),_v(" "),_c('li',[_c('strong',[_v("Private contact detail")]),_v(": A contact detail that is not meant to be shared with others")]),_v(" "),_c('li',[_c('strong',[_v("Team Directory")]),_v(": The system or platform where all the contact details of developers, team leaders, and project managers are stored.")]),_v(" "),_c('li',[_c('strong',[_v("Node")]),_v(": A designated area or profile within the Team Directory where specific users (like team leaders or developers) can input or update their information.")]),_v(" "),_c('li',[_c('strong',[_v("Tag-Based System")]),_v(": A system in the Team Directory that allows contacts to be tagged with specific roles or responsibilities, like \"Database Management\" or \"Code Review\".")]),_v(" "),_c('li',[_c('strong',[_v("Public Profile")]),_v(": A profile in the Team Directory visible to all users, containing non-sensitive information about a team or individual.")]),_v(" "),_c('li',[_c('strong',[_v("Status Feature")]),_v(": A tool enabling users to set and display their current status or availability (e.g., online, busy, away) within the Team Directory.")]),_v(" "),_c('li',[_c('strong',[_v("Inventory Checking")]),_v(": A feature that logs the state of an item (like an apartment) at a specific time, allowing for easy comparison at a later date.")])])}
 },function anonymous(
 ) {
 with(this){return _c('h2',{attrs:{"id":"appendix-instructions-for-manual-testing"}},[_c('strong',[_v("Appendix: Instructions for manual testing")]),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#appendix-instructions-for-manual-testing","onclick":"event.stopPropagation()"}})])}
@@ -374,6 +374,6 @@ with(this){return _c('h3',{attrs:{"id":"saving-data"}},[_v("Saving data"),_c('a'
 with(this){return _c('ol',[_c('li',[_c('p',[_v("Dealing with missing/corrupted data files")]),_v(" "),_c('ol',[_c('li',[_c('em',[_v("{explain how to simulate a missing/corrupted file, and the expected behavior}")])])])]),_v(" "),_c('li',[_c('p',[_c('em',[_v("{ more test cases …​ }")])])])])}
 },function anonymous(
 ) {
-with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.1.0")]),_v(", generated on Thu, 5 Oct 2023, 15:36:07 GMT+8]")])])])}
+with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.1.0")]),_v(", generated on Thu, 5 Oct 2023, 15:42:03 GMT+8]")])])])}
 }];
   
