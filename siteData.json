@@ -154,6 +154,14 @@
       "headingKeywords": {}
     },
     {
+      "src": "team/jizhuochen.md",
+      "title": "Chen Jizhuo's Project Portfolio Page",
+      "headings": {
+        "project-linktree": "Project: LinkTree"
+      },
+      "headingKeywords": {}
+    },
+    {
       "src": "team/johndoe.md",
       "title": "John Doe's Project Portfolio Page",
       "headings": {
