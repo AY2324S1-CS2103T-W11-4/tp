@@ -133,7 +133,6 @@
     },
     {
       "src": "index.md",
-      "title": "",
       "headings": {
         "linktree": "LinkTree"
       },
@@ -157,7 +156,6 @@
     },
     {
       "src": "team/jizhuochen.md",
-      "title": "Chen Jizhuo's Project Portfolio Page",
       "headings": {
         "project-linktree": "Project: LinkTree"
       },
