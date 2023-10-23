@@ -1,0 +1,50 @@
+@startuml
+
+package "Storage" {
+
+    interface Storage <<interface>>
+
+    package "AddressBook Storage" {
+        interface AddressBookStorage <<interface>>
+        class JsonAddressBookStorage
+        class JsonSerializableAddressBook
+        class JsonAdaptedPerson
+        class JsonAdaptedTag
+    }
+
+    package "UserPrefs Storage" {
+        interface UserPrefsStorage <<interface>>
+        class JsonUserPrefsStorage
+    }
+
+    package "Team Storage" {
+        interface TeamBookStorage <<interface>>
+        class JsonTeamBookStorage
+        class JsonSerializableTeamBook
+        class JsonAdaptedTeam
+    }
+
+    class StorageManager
+
+    Storage <|-- AddressBookStorage
+    Storage <|-- UserPrefsStorage
+    Storage <|-- TeamBookStorage
+
+    AddressBookStorage <|.. JsonAddressBookStorage: 1
+    JsonAddressBookStorage --> JsonSerializableAddressBook
+    JsonSerializableAddressBook --> JsonAdaptedPerson: *
+    JsonSerializableAddressBook --> JsonAdaptedTag: *
+
+    UserPrefsStorage <|.. JsonUserPrefsStorage: 1
+
+    TeamBookStorage <|.. JsonTeamBookStorage: 1
+    JsonTeamBookStorage --> JsonSerializableTeamBook
+    JsonSerializableTeamBook --> JsonAdaptedTeam: *
+
+    StorageManager --> AddressBookStorage
+    StorageManager --> UserPrefsStorage
+    StorageManager --> TeamBookStorage
+
+}
+
+@enduml
