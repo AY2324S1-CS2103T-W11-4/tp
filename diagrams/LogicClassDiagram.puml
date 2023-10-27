@@ -4,6 +4,7 @@ skinparam arrowThickness 1.1
 skinparam arrowColor LOGIC_COLOR_T4
 skinparam classBackgroundColor LOGIC_COLOR
 
+
 package Logic as LogicPackage {
 
 Class AddressBookParser
@@ -23,24 +24,39 @@ Class HiddenModel #FFFFFF
 package Storage {
 }
 
+package UI {
+Class MainWindow
+}
+
 Class HiddenOutside #FFFFFF
 HiddenOutside ..> Logic
 
-LogicManager .right.|> Logic
-LogicManager -right->"1" AddressBookParser
+
+MainWindow .right.> Logic
+note bottom of MainWindow: Depends on the CommandResult\nreturned by Logic
+
+LogicManager .left.|> Logic
+Logic ..down.> CommandResult
+LogicManager .down.> CommandResult
+LogicManager -down->"          1" AddressBookParser
 AddressBookParser ..> XYZCommand : creates >
 
-XYZCommand -up-|> Command
+XYZCommand -down-|> Command
 LogicManager .left.> Command : executes >
 
 LogicManager --> Model
 LogicManager --> Storage
-Storage --[hidden] Model
-Command .[hidden]up.> Storage
+
+
 Command .right.> Model
 note right of XYZCommand: XYZCommand = AddCommand, \nFindCommand, etc
 
-Logic ..> CommandResult
-LogicManager .down.> CommandResult
+note "Returned by Logic\n to its caller." as dn
+dn .right.> CommandResult
+Class HiddenOutside2 #FFFFFF
+Command .[hidden]left.> HiddenOutside2
+dn .[hidden]down.>  HiddenOutside2
+
+
 Command .up.> CommandResult : produces >
 @enduml
