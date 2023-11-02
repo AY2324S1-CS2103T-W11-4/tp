@@ -110,9 +110,13 @@
       "headings": {
         "linktree-user-guide": "LinkTree User Guide",
         "introduction": "Introduction",
+        "target-user-profile": "Target User Profile:",
+        "how-to-use-this-guide": "How to use this Guide?",
         "getting-started": "Getting Started",
         "installation": "Installation",
         "initial-setup": "Initial Setup",
+        "understanding-the-gui": "Understanding the GUI",
+        "tutorial-on-using-our-commands": "Tutorial on using our Commands",
         "basic-features": "Basic Features",
         "adding-contacts": "Adding Contacts",
         "searching-contacts": "Searching Contacts",
