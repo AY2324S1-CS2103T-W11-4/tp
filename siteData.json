@@ -148,7 +148,8 @@
         "faqs": "FAQs",
         "support": "Support",
         "known-issues": "Known issues",
-        "command-summary": "Command summary"
+        "command-summary": "Command summary",
+        "future-enhancement": "Future Enhancement"
       },
       "headingKeywords": {}
     },
