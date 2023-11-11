@@ -11,7 +11,7 @@ with(this){return _c('h1',{attrs:{"id":"linktree"}},[_c('strong',[_v("LinkTree")
 with(this){return _c('p',[_c('a',{attrs:{"href":"https://github.com/se-edu/addressbook-level3/actions"}},[_c('img',{staticClass:"img-fluid",attrs:{"src":"https://github.com/se-edu/addressbook-level3/workflows/Java%20CI/badge.svg","alt":"CI Status"}})]),_v(" "),_c('a',{attrs:{"href":"https://codecov.io/gh/se-edu/addressbook-level3"}},[_c('img',{staticClass:"img-fluid",attrs:{"src":"https://codecov.io/gh/se-edu/addressbook-level3/branch/master/graph/badge.svg","alt":"codecov"}})])])}
 },function anonymous(
 ) {
-with(this){return _c('p',[_c('a',{attrs:{"href":"/tp/images/Ui.png","target":"_self"}},[_c('img',{staticClass:"img-fluid",attrs:{"src":"/tp/images/Ui.png","alt":"Ui"}})])])}
+with(this){return _c('p',[_c('a',{attrs:{"href":"/tp/images/MainUi.png","target":"_self"}},[_c('img',{staticClass:"img-fluid",attrs:{"src":"/tp/images/MainUi.png","alt":"Ui"}})])])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('strong',[_v("LinkTree is the top contact solution for software professionals.")]),_v(" Using our unique tag-based system, access contacts by roles and responsibilities instantly. With LinkTree, swiftly connect with the right stakeholder, ensuring smooth project execution and superior collaboration. While it has a GUI, most of the user interactions happen using a CLI (Command Line Interface).")])}
@@ -26,6 +26,6 @@ with(this){return _c('p',[_c('strong',[_v("Acknowledgements")])])}
 with(this){return _c('ul',[_c('li',[_v("Libraries used: "),_c('a',{attrs:{"href":"https://openjfx.io/"}},[_v("JavaFX")]),_v(", "),_c('a',{attrs:{"href":"https://github.com/FasterXML/jackson"}},[_v("Jackson")]),_v(", "),_c('a',{attrs:{"href":"https://github.com/junit-team/junit5"}},[_v("JUnit5")])])])}
 },function anonymous(
 ) {
-with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.1.0")]),_v(", generated on Sun, 12 Nov 2023, 0:45:24 GMT+8]")])])])}
+with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.1.0")]),_v(", generated on Sun, 12 Nov 2023, 1:38:26 GMT+8]")])])])}
 }];
   
