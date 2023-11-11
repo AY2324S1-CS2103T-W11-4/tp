@@ -139,7 +139,7 @@
         "list-teams": "List teams",
         "to-return-to-the-home-page-2": "To return to the home page",
         "display-tree": "Display tree",
-        "command-format-8": "Command format:",
+        "command-format-9": "Command format:",
         "to-hide-the-tree": "To hide the tree",
         "help": "Help",
         "reset-the-project": "Reset the project",
@@ -149,6 +149,7 @@
         "support": "Support",
         "known-issues": "Known issues",
         "command-summary": "Command summary",
+        "command-summary-2": "Command Summary",
         "future-enhancement": "Future Enhancement"
       },
       "headingKeywords": {}
@@ -181,14 +182,6 @@
       "title": "Chen Jizhuo's Project Portfolio Page",
       "headings": {
         "project-linktree": "Project: LinkTree"
-      },
-      "headingKeywords": {}
-    },
-    {
-      "src": "team/johndoe.md",
-      "title": "John Doe's Project Portfolio Page",
-      "headings": {
-        "project-addressbook-level-3": "Project: AddressBook Level 3"
       },
       "headingKeywords": {}
     },
