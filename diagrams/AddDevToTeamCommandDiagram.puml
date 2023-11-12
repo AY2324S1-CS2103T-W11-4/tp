@@ -1,0 +1,36 @@
+
+@startuml
+skin rose
+
+start
+:User executes `dev2team` command;
+:Parameters are parsed;
+if() then ([parameters are invalid])
+    :Display parse error;
+    else([else])
+    if() then ([Team does not exist])
+    :Display error msg;
+        else([else])
+        if() then ([Developer does not exist])
+        :Display error msg;
+        else([else])
+            if() then ([Dev alr exists in team])
+                :Display duplicate dev error;
+        else([else])
+        if() then ([Dev is the teamleader])
+               :Display dev is teamleader error;
+
+    else ([else])
+    :Success;
+    endif
+
+   endif
+   endif
+   endif
+
+   endif
+
+    stop
+
+
+@enduml

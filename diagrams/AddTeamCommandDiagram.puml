@@ -1,0 +1,27 @@
+@startuml
+skin rose
+
+start
+:User executes `newteam` command;
+:Parameters are parsed;
+if() then ([parameters are valid])
+    if() then ([Given leader exists])
+        if() then ([Teamname is taken])
+        :Teamname has been taken;
+        else([else])
+        :Team successfully added;
+        endif
+
+
+    else ([else])
+    :Person does not exist  ;
+    endif
+    else([else])
+    endif
+
+    stop
+
+
+
+
+@enduml

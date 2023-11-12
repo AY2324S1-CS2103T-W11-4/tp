@@ -52,6 +52,7 @@
         "common-classes": "Common classes",
         "implementation": "Implementation",
         "feature-create-a-new-team": "Feature: Create a new team",
+        "feature-add-developers-to-an-existing-team": "Feature: Add developers to an existing team",
         "feature-remove-an-existing-team": "Feature: Remove an existing Team",
         "proposed-data-archiving": "[Proposed] Data archiving",
         "documentation-logging-testing-configuration-dev-ops": "Documentation, logging, testing, configuration, dev-ops",
