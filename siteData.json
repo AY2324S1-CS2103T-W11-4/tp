@@ -41,6 +41,7 @@
       "title": "Developer Guide",
       "headings": {
         "linktree-developer-guide": "LinkTree Developer Guide",
+        "table-of-contents": "Table of Contents",
         "acknowledgements": "Acknowledgements",
         "setting-up-getting-started": "Setting up, getting started",
         "design": "Design",
@@ -51,8 +52,7 @@
         "storage-component": "Storage component",
         "common-classes": "Common classes",
         "implementation": "Implementation",
-        "feature-create-a-new-team": "Feature: Create a new team",
-        "feature-add-developers-to-an-existing-team": "Feature: Add developers to an existing team",
+        "add-related-commands": "Add related commands",
         "feature-remove-an-existing-team": "Feature: Remove an existing Team",
         "proposed-data-archiving": "[Proposed] Data archiving",
         "documentation-logging-testing-configuration-dev-ops": "Documentation, logging, testing, configuration, dev-ops",
