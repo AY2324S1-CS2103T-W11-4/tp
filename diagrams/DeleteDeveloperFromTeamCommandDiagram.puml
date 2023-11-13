@@ -1,0 +1,21 @@
+@startuml
+skin rose
+
+start
+:User executes `deletedev` command;
+:Parameters are parsed;
+if() then ([parameters are invalid])
+    :Display parse error msg;
+    else([else])
+    if() then ([Teamname is invalid])
+    :Display Invalid Team error msg;
+        else([Teamname is valid])
+        if() then ([Developer does not exist])
+        :Display Invalid Person error msg;
+            else([Developer exists in the team])])
+            :Developer deleted successfully from the team;
+            endif
+        endif
+    endif
+stop
+@enduml

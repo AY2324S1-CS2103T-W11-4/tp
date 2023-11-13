@@ -1,0 +1,16 @@
+@startuml
+skin rose
+
+start
+:User executes `deleteteam` command;
+:Parameters are parsed;
+if() then ([parameters is a valid team name])
+:Team successfully deleted;
+
+else ([else])
+:Throws TeamNotFoundException  ;
+
+endif
+
+stop
+@enduml
