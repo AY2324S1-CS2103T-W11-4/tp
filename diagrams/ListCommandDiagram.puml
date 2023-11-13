@@ -1,0 +1,22 @@
+@startuml
+skin rose
+
+start
+:User executes `list` command;
+:ListCommand is executed;
+if() then ([the Ui is listing only developers already])
+    :MainWindow toggles the HBox containing both
+         lists of developers and teams to be visible;
+    :MainWindow toggles the HBox containing the
+         list of developers to be invisible;
+    :Display both lists of developers and teams;
+else([the Ui is listing not only developers])
+    :MainWindow toggles the HBox containing the
+        list of developers to be visible;
+    :MainWindow toggles the HBox containing any
+        other lists to be invisible;
+    :Display only the list of all existing developers;
+endif
+stop
+
+@enduml

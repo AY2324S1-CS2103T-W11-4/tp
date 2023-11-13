@@ -1,0 +1,22 @@
+@startuml
+skin rose
+
+start
+:User executes `listt` command;
+:ListTeamCommand is executed;
+if() then ([the Ui is listing only teams already])
+    :MainWindow toggles the HBox containing both
+         lists of developers and teams to be visible;
+    :MainWindow toggles the HBox containing the
+         list of teams to be invisible;
+    :Display both lists of developers and teams;
+else([the Ui is listing not only teams])
+    :MainWindow toggles the HBox containing the
+        list of teams to be visible;
+    :MainWindow toggles the HBox containing any
+        other lists to be invisible;
+    :Display only the list of all existing teams;
+endif
+stop
+
+@enduml
