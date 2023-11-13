@@ -1,0 +1,22 @@
+@startuml
+skin rose
+
+start
+:User executes `findteam` command;
+:Parameters are parsed by FindTeamCommandParser;
+if() then ([parameters are invalid])
+    :Display parse error message;
+else([parameters are valid])
+    :Create TeamContainsKeywordsPredicate with keywords;
+    :FindTeamCommand is executed;
+    :Model updates filtered team list with predicate;
+    if() then ([No matching teams found])
+        :Display "No teams found" message;
+    else([Matching teams found])
+        :Display list of matching teams;
+    endif
+endif
+
+stop
+
+@enduml

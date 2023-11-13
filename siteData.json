@@ -54,6 +54,7 @@
         "implementation": "Implementation",
         "add-related-commands": "Add related commands",
         "feature-remove-an-existing-team": "Feature: Remove an existing Team",
+        "feature-find-team-by-keywords": "Feature: Find Team by Keywords",
         "proposed-data-archiving": "[Proposed] Data archiving",
         "documentation-logging-testing-configuration-dev-ops": "Documentation, logging, testing, configuration, dev-ops",
         "appendix-a-requirements": "Appendix A: Requirements",
