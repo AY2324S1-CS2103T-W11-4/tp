@@ -74,6 +74,9 @@
         "deleting-a-person": "Deleting a person",
         "saving-data": "Saving data",
         "appendix-c-effort": "Appendix C: Effort",
+        "overview": "Overview",
+        "challenges-and-solutions": "Challenges and Solutions:",
+        "results-and-achievements": "Results and Achievements",
         "appendix-d-future-enhancements": "Appendix D: Future Enhancements"
       },
       "headingKeywords": {}
@@ -147,12 +150,16 @@
         "help-command": "Help Command",
         "reset-the-project": "Reset the project",
         "exit-the-application": "Exit the application",
-        "troubleshooting": "Troubleshooting",
         "faq": "FAQ",
         "support": "Support",
+        "contact-information": "Contact Information",
+        "frequently-asked-questions-faqs": "Frequently Asked Questions (FAQs)",
+        "software-updates": "Software Updates",
+        "feedback-and-suggestions": "Feedback and Suggestions",
         "known-issues": "Known issues",
         "command-summary": "Command summary",
-        "future-enhancements": "Future Enhancements"
+        "future-enhancements": "Future Enhancements",
+        "glossary": "Glossary"
       },
       "headingKeywords": {}
     },
