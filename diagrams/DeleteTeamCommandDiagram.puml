@@ -8,7 +8,7 @@ if() then ([parameters is a valid team name])
 :Team successfully deleted;
 
 else ([else])
-:Throws TeamNotFoundException  ;
+:Display invalid team error msg  ;
 
 endif
 
