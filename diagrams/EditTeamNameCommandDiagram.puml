@@ -1,0 +1,25 @@
+@startuml
+skin rose
+
+start
+:User executes `editTeamName` command;
+:Parameters are parsed;
+if() then ([parameters are invalid])
+    :Display parse error msg;
+    else([else])
+    if() then ([Target Teamname is invalid])
+    :Display Invalid Team error msg;
+        else([Target Teamname is valid])
+        if() then ([TeamName is not changed])
+        :Display Not Edited error msg;
+            else([else])])
+            if() then ([New Teamname already exist])
+                :Display Duplicate Teamname error msg;
+                    else([else])])
+                    :Team Name changed successfully;
+                    endif
+            endif
+        endif
+    endif
+stop
+@enduml

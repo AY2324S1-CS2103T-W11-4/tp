@@ -1,0 +1,25 @@
+@startuml
+skin rose
+
+start
+:User executes `editTeamLeader` command;
+:Parameters are parsed;
+if() then ([parameters are invalid])
+    :Display parse error msg;
+    else([else])
+    if() then ([Teamname is invalid])
+    :Display Invalid Team error msg;
+        else([Teamname is valid])
+        if() then ([Developer does not exist])
+        :Display Invalid Person error msg;
+            else([else])])
+            if() then ([TeamLeader is not changed])
+                :Display Not Edited error msg;
+                    else([else])])
+                    :Team leader changed successfully;
+                    endif
+            endif
+        endif
+    endif
+stop
+@enduml

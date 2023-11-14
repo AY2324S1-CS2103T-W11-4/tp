@@ -1,0 +1,16 @@
+@startuml
+skin rose
+
+start
+:User executes `tree` command;
+:ListCommand is executed;
+if() then ([the Ui is showing the tree already])
+    :Generate the tree;
+    :Display tree in a StackPane;
+else([the Ui is not showing the tree])
+    :Clear the tree;
+    :Hide the StackPane;
+endif
+stop
+
+@enduml
